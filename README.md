@@ -61,3 +61,9 @@ Las enfermedades no transmisibles, como la diabetes mellitus tipo 2, son una de 
 1. Iniciar la prueba.
 2. Introducir los datos solicitados.
 3. Se mostrará el resultado de la clasificación sobre diabetes mellitus tipo 2.
+
+## Capturas de Pantalla
+<img src="assets/front-page.png" alt="Interfaz inicial" width="300">
+<img src="assets/form.png" alt="Interfaz del formulario" width="300">
+<img src="assets/result-1.png" alt="Interfaz prueba negativa" width="300">
+<img src="assets/result-2.png" alt="Interfaz prueba positiva" width="300">
