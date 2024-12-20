@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/029bdfdee7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=K2D' rel='stylesheet'>
+    <title>DiaGnosis</title>
+</head>
+<style>
+    body {
+    font-family: 'K2D';font-size: 22px;
+}
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+    color: black;
+    background-color:#fff;
+    border-color: #fff; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: black;
+    background-color: #00CBA9;
+    border-color: #00CBA9; /*set the color you want here*/
+}
+.navigation{
+    z-index:1001;
+}
+</style>
+<body>
+    <div class="container-fluid ps-0 pe-0" style="height: 100vh;">
+        <div class="container-fluid position-fixed navigation" style="height: 10%; background-color: #fff;">
+            <div class="row pt-3">
+                <div class="col-6 text-start ">
+                    <i class="fa-solid fa-heart-pulse fa-2xl pe-0" style="color: #00CBA9;"></i>
+                    <i class="fa-solid fa-slash fa-rotate-by fa-lg" style="color: #00CBA9; --fa-rotate-angle: 51.5deg;"></i>
+                    DiaGnosis
+                </div>
+                <div class="col text-end">
+                    <a class="btn btn-primary" href="#inicio" role="button">Inicio</a>
+                    <a class="btn btn-primary" href="#funciona" role="button">¿Cómo funciona?</a>
+                    <a class="btn btn-primary" href="formulario.html" role="button">Prueba</a>
+                    <a class="btn btn-primary" href="#" role="button">Directorio</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="inicio" style="height: 10%;">
+
+        </div>
+        <div class="container-fluid ps-0 pe-0"  style="height: 90%; background-image: url(static/Vector.svg); background-repeat: no-repeat; background-position: bottom; background-size: 100%;">
+            <div class="row" style="height: 100%; width: 100%;">
+                <div class="col-7" style="height: 100%;">
+                    <div class="container-fluid mt-5 ms-5 me-5 " style="height: 25%; width: 70%;">
+                        <h1>
+                            ¿Sabías que la diabetes es la tercera causa de fallecimientos en México?
+                        </h1>
+                    </div>
+                    <div class="container-fluid mt-5 ms-5 me-5" style="width: 70%; height: 30%;">
+                        ¡Cuidado! Hay personas que se preocupan por ti, el diagnóstico temprano de la diabetes puede ayudarte a pasar más tiempo con ellas.
+                    </div>
+                    <div class="container-fluid ms-5" style="width: 70%; height: 10%;">
+                        <button type="button" href="formulario.html" onclick="window.location.href='formulario.html'" class="btn btn-primary rounded-pill shadow" style="background-color: #FF9F1C; border-color: #FF9F1C;"><h4>Inicia la prueba</h4></button>
+                    </div>
+                </div>
+                <div class="col pe-0" style="height: 100%;">
+                    <div class="container-fluid pe-0" style="height: 100%; background-image: url(static/doctor-removebg-preview-2.png); background-repeat: no-repeat; background-position: center center;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ps-0 pe-0 me-0 ms-0" style="height: 100vh;" id="funciona">
+        <div class="row me-0 ms-0" style="height: 100%; width: 100%;">
+            <div class="col-6" style="background-image: url(static/heart.png); background-repeat: no-repeat; background-position: center center;">
+
+            </div>
+            <div class="col">
+                <div class="d-flex align-content-center flex-wrap" style="height: 100%; width: 100%; text-align: right;">
+                    <div class="container-fluid" style="width: 100%; ">
+                        <h1  style="color: #00CBA9;">
+                            ¿Cómo funciona? 
+                        </h1>
+                    </div>
+                    <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh venenatis cras sed felis. Odio facilisis mauris sit amet massa. Non sodales neque sodales ut etiam sit amet nisl purus. 
+
+Molestie ac feugiat sed lectus. Morbi tristique senectus et netus et malesuada fames ac turpis. Mattis nunc sed blandit libero. 
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ps-5 pe-5 me-0 ms-0" style="height: 100vh;">
+        <video src="static/AhmetMuhsin.mp4" controls style="height: 60%; width: 100%;"></video>
+        <div class="container-fluid" style="height: 40%; width: 100%;">
+            <div class="container-fluid rounded pt-2 pb-2" style="background-color: #00CBA9;">
+                <h1 style="color: black;">
+                    Tutorial: ¿Cómo funciona la página?
+                </h1>
+            </div>
+            <div class="container-fluid pt-5" style="width: 100%; height: 100%;">
+                <h3>
+                    En esta página se explica como puedes hacer uso de la página web y de su formulario para poder hacer la prueba.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="height: 6em; width: 100%; background-color: #00CBA9;">
+        <div class="row me-0 ms-0" style="height: 100%; width: 100%;">
+            <div class="col-7 pt-3 ps-5" style="text-align: left;">
+                <h5 style="color: black;">
+                    Contactenos
+                </h5>
+                <h5>
+                    <i class="fa-regular fa-envelope me-1"></i>email@email.com
+                </h5>
+            </div>
+            <div class="col">
+                <div class="container-fluid pt-3 ps-5" style="width: 100%; height: 100%;">
+                    <h3>
+                        Descargo de responsabilidad
+                    </h3>
+                    <p class="h6">
+                        Recuerda visitar a un médico para obtener un diagnóstico oficial, esta página no tiene reconocimiento médico oficial.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
